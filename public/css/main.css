@@ -1,15 +1,16 @@
+
 h1 {
     color: black;
     text-align: center;
     margin: 20px auto;
-    display; block;
+    display: block;
 }
 
 p {
     color: black;
     text-align: center;
     margin: 20px auto;
-    display; block;
+    display: block;
 }
 
 a {
@@ -19,7 +20,22 @@ a {
 
 #home-img {
     width: 100%;
-    margin: auto;
+    /* margin: auto; */
     height: auto;
-    padding: 35px 45px;
+    padding: 35px 400px;
+}
+
+#about-img {
+    width: auto;
+    margin: auto;
+    height: 550px;
+    padding: 10px 35px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 35px 5px 35px;
 }

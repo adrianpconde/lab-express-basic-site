@@ -1,5 +1,5 @@
 
-h1 {
+h1, h4 {
     color: black;
     text-align: center;
     margin: 20px auto;
@@ -9,8 +9,12 @@ h1 {
 p {
     color: black;
     text-align: center;
-    margin: 20px auto;
+    margin: 20px 50px;
     display: block;
+    border: 8px;
+    border-width: 10px;
+    border-style:inset;
+    border-color: #3B5888;
 }
 
 a {
@@ -37,5 +41,33 @@ a {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 35px 5px 35px;
+    padding: 15px 35px;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    font-size: 18px;
+}
+
+.grogu {
+    display: flex;
+    width: 45%;
+    margin: 25px 400px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.photo {
+    height: auto;
+    width: 60%;
+    margin: 15px auto;
+    flex-wrap: wrap;
 }
